@@ -9,7 +9,7 @@ function getDartboardScore(x, y) {
       if (grad < 0) grad += 360 // if i got negative degree, its become outer trangle wich is positive
       return [hypotinus,grad]
     }
-    
+
     const bullsEye = 12.7 / 2 //it's need to transform all diametees into radius
     const bull = 31.8 / 2
     const doubleOut = 340 / 2
